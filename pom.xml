@@ -13,14 +13,20 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
     <!-- 依赖包版本号 start -->
-    <junit.version>4.11</junit.version>
-    <hutool.version>5.3.8</hutool.version>
-    <poi.version>3.9</poi.version>
+    <junit.version>4.11</junit.version> <!--测试类-->
+    <hutool.version>5.3.8</hutool.version><!--Java小工具类-->
+    <poi.version>3.9</poi.version><!--poi 操作Microsoft Office的相关文件所需依赖-->
+    <mysql.version>8.0.16</mysql.version><!--MySQL驱动类-->
+    <log4j.version>1.2.17</log4j.version><!--日志相关类-->
+    <slf4j.version>1.7.25</slf4j.version><!--日志相关类-->
     <!-- 依赖包版本号 end -->
   </properties>
 
   <dependencies>
+  	<!--测试类-->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -40,13 +46,32 @@
       <groupId>org.apache.poi</groupId>
       <artifactId>poi</artifactId>
       <version>${poi.version}</version>
-    </dependency>
-
+    </dependency>	
     <dependency>
       <groupId>org.apache.poi</groupId>
       <artifactId>poi-ooxml</artifactId>
       <version>${poi.version}</version>
     </dependency>
+    
+    <!--MySQL驱动类-->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>${mysql.version}</version>
+    </dependency>
+    
+    <!--日志相关类-->
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>${log4j.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>${slf4j.version}</version>
+    </dependency>
+    
   </dependencies>
 
 </project>
