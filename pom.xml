@@ -16,7 +16,7 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <!-- 依赖包版本号 start -->
-    <junit.version>4.11</junit.version> <!--测试类-->
+    <junit.version>4.13.1</junit.version> <!--测试类-->
     <hutool.version>5.3.8</hutool.version><!--Java小工具类-->
     <poi.version>3.9</poi.version><!--poi 操作Microsoft Office的相关文件所需依赖-->
     <mysql.version>8.0.16</mysql.version><!--MySQL驱动类-->
