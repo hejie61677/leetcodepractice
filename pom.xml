@@ -18,7 +18,7 @@
     <!-- 依赖包版本号 start -->
     <junit.version>4.11</junit.version> <!--测试类-->
     <hutool.version>5.3.8</hutool.version><!--Java小工具类-->
-    <poi.version>3.9</poi.version><!--poi 操作Microsoft Office的相关文件所需依赖-->
+    <poi.version>4.1.2</poi.version><!--poi 操作Microsoft Office的相关文件所需依赖-->
     <mysql.version>8.0.16</mysql.version><!--MySQL驱动类-->
     <log4j.version>1.2.17</log4j.version><!--日志相关类-->
     <slf4j.version>1.7.25</slf4j.version><!--日志相关类-->
